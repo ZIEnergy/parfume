@@ -1,0 +1,7 @@
+mixin item(brand, name, picture, additionalClass)
+  a.item(href="#", class=additionalClass)
+    .item__brand #{brand}
+    .item__name #{name}
+    img.item__picture(src="img/"+picture, alt="Photo")
+    .item__price от 1187 руб.
+    a.item__button(href="#") Заказать

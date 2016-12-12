@@ -1,0 +1,22 @@
+.enter {
+  display: flex;
+  
+  &__link {
+    font-family: @font-first;
+    font-size: 1.4rem;
+    color: #fff;
+    text-decoration: none;
+    
+    &:nth-child(n+2) {
+      margin-left: 2rem;
+    }
+    
+    &--signup {
+      border-bottom: 1px dashed #fff;
+      
+      &:hover {
+        border-color: transparent;
+      }
+    }
+  }
+}

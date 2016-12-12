@@ -1,0 +1,21 @@
+mixin header(additionalClass)
+  .header(class=additionalClass)
+    +top-bar
+    +menu
+    .wrapper.header__content
+      .header__content-left
+        a.logo.header__logo(href="index.html")
+        .header__info
+          .header__city Москва
+          .header__phone 8 (495) 540-47-23
+        a.header__callback.button.button--grey(href="#") Позвоните мне
+      .header__cart
+        a.header__cart-button.button(href="#") Корзина:&nbsp;
+          span.header__cart-button-amount 0 
+          |&nbsp;товаров
+        a.header__cart-link(href="#") Оформить заказ
+    .wrapper.header__bottom
+      .header__categories
+        a.header__categories-item(href="#") Женская парфюмерия
+        a.header__categories-item(href="#") Мужская парфюмерия
+      +search

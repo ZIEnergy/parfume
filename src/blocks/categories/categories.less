@@ -4,6 +4,7 @@
   
   &__item {
     width: 31.8rem;
+    width: 50%;
     height: 10rem;
     padding: 1.7rem 1.9rem;
     color: #fff;
@@ -19,8 +20,11 @@
     }
     
     &--she {
-      background: #c6cbcc url(../img/category-1.jpg) no-repeat top right;
-      background-size: contain;
+      background: #c6cbcc url(../img/category-1.jpg) no-repeat top -3rem left;
+      background-size: cover;
+      filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale"); /* Firefox 10+, Firefox on Android */
+      filter: gray; /* IE6-9 */
+      -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
     }
     
     &--he {

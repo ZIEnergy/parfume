@@ -218,14 +218,19 @@ html {
   color: #fff;
   text-decoration: none;
 }
+.enter__link:hover {
+  text-decoration: underline;
+}
 .enter__link:nth-child(n+2) {
   margin-left: 2rem;
 }
 .enter__link--signup {
+  padding-bottom: .2rem;
   border-bottom: 1px dashed #fff;
 }
 .enter__link--signup:hover {
   border-color: transparent;
+  text-decoration: none;
 }
 .menu {
   background: #f5f5f5;
@@ -250,6 +255,9 @@ html {
   font-family: 'Open Sans', 'Arial', serif;
   color: #000;
   text-decoration: none;
+}
+.menu__item:hover {
+  text-decoration: underline;
 }
 .logo {
   width: 25.3rem;
@@ -331,6 +339,9 @@ html {
   display: block;
   text-align: center;
 }
+.header__cart-link:hover {
+  text-decoration: none;
+}
 .header__bottom {
   display: -webkit-box;
   display: -webkit-flex;
@@ -361,6 +372,9 @@ html {
   color: #eb0081;
   font-family: 'Open Sans', 'Arial', serif;
   text-decoration: none;
+}
+.header__categories-item:hover {
+  text-decoration: underline;
 }
 .header__categories-item:nth-child(n+2) {
   margin-left: 6.5rem;
@@ -422,6 +436,12 @@ html {
           border-radius: 0 1rem 0 1rem;
   background: #00d5b5 url(../img/icon-search.png) no-repeat center;
   cursor: pointer;
+  -webkit-transition: all .15s linear;
+  transition: all .15s linear;
+}
+.search__button:hover {
+  -webkit-border-radius: 1rem 0 1rem 0;
+          border-radius: 1rem 0 1rem 0;
 }
 .alphabet {
   background: #eb0081;
@@ -449,6 +469,9 @@ html {
   font-family: 'Open Sans', 'Arial', serif;
   display: block;
   margin-left: 6rem;
+}
+.alphabet__link:hover {
+  text-decoration: none;
 }
 .alphabet__content {
   display: -webkit-box;
@@ -518,6 +541,11 @@ html {
   padding: 1.4rem 2.4rem;
   border: 1px solid #eee;
   margin-left: .65rem;
+  -webkit-transition: all .15s linear;
+  transition: all .15s linear;
+}
+.item:hover {
+  border-color: #c8c8c8;
 }
 .item:nth-child(n+5) {
   margin-top: .65rem;
@@ -542,6 +570,11 @@ html {
   text-decoration: none;
   margin-top: .5rem;
   margin-bottom: .6rem;
+  -webkit-transition: all .15s linear;
+  transition: all .15s linear;
+}
+.item__name:hover {
+  color: #a90213;
 }
 .item__picture-container {
   height: 19.5rem;
@@ -581,6 +614,11 @@ html {
   text-decoration: none;
   -webkit-border-radius: 1.5rem;
           border-radius: 1.5rem;
+  -webkit-transition: all .15s linear;
+  transition: all .15s linear;
+}
+.item__button:hover {
+  background: #a90213;
 }
 .categories {
   display: -webkit-box;
@@ -655,6 +693,9 @@ html {
   text-decoration: none;
   width: 25%;
   display: block;
+}
+.brands__item:hover {
+  text-decoration: underline;
 }
 .brands__item--bold {
   font-weight: 700;
@@ -756,6 +797,9 @@ html {
   display: block;
   margin-top: 2rem;
 }
+.reviews__link:hover {
+  text-decoration: none;
+}
 .footer {
   margin-top: 4rem;
 }
@@ -806,6 +850,9 @@ html {
   line-height: 2.5rem;
   display: block;
   text-decoration: none;
+}
+.footer__categories-item:hover {
+  text-decoration: underline;
 }
 .footer__content-bottom {
   font-size: 1.2rem;

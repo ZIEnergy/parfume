@@ -7,15 +7,21 @@
     color: #fff;
     text-decoration: none;
     
+    &:hover {
+      text-decoration: underline;
+    }
+    
     &:nth-child(n+2) {
       margin-left: 2rem;
     }
     
     &--signup {
+      padding-bottom: .2rem;
       border-bottom: 1px dashed #fff;
       
       &:hover {
         border-color: transparent;
+        text-decoration: none;
       }
     }
   }

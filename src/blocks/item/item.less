@@ -8,6 +8,11 @@
   padding: 1.4rem 2.4rem;
   border: 1px solid #eee;
   margin-left: .65rem;
+  .transition;
+  
+  &:hover {
+    border-color: darken(#eee, 15%);
+  }
   
   &:nth-child(n+5) {
     margin-top: .65rem;
@@ -35,6 +40,11 @@
     text-decoration: none;
     margin-top: .5rem;
     margin-bottom: .6rem;
+    .transition;
+    
+    &:hover {
+      color: darken(@color-second, 10%);
+    }
   }
   
   &__picture-container {
@@ -71,5 +81,10 @@
     font-family: @font-first;
     text-decoration: none;
     border-radius: 1.5rem;
+    .transition;
+    
+    &:hover {
+      background: darken(@color-second, 10%);
+    }
   }
 }

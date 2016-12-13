@@ -1,7 +1,8 @@
 mixin item(brand, name, picture, additionalClass)
-  a.item(href="#", class=additionalClass)
-    .item__brand #{brand}
-    .item__name #{name}
-    img.item__picture(src="img/"+picture, alt="Photo")
+  .item(class=additionalClass)
+    a.item__brand(href="#") #{brand}
+    a.item__name(href="#") #{name}
+    a.item__picture-container(href="#")
+      img.item__picture(src="img/"+picture, alt="Photo")
     .item__price от 1187 руб.
     a.item__button(href="#") Заказать

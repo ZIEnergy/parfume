@@ -1,24 +1,19 @@
 mixin footer(additionalClass)
   .footer(class=additionalClass)
     .footer__top
-      .footer__content
-        .footer__content-top
-          .footer__address
-            .footer__address-header Москва
-            .footer__address-content Адрес: ул. Николоямская, д. 48, стр. 2 <brТел.: 8 (495) 540-47-23
-          .footer__categories
-            a.footer__categories-item(href="#") Женская парфюмерия
-            a.footer__categories-item(href="#") Мужская парфюмерия
-            a.footer__categories-item(href="#") Отзывы
-        .footer__content-bottom Вопросы и предложения присылайте на электронную почту info@parfumoff.ru
-      .footer__payments
-        .footer__payments-header Мы принимаем:
-        .footer__payments-list
-          a.footer__payments-item.footer__payments-item--mastercard(href="#")
-          a.footer__payments-item.footer__payments-item--visa(href="#")
-          a.footer__payments-item.footer__payments-item--yandex(href="#")
-          a.footer__payments-item.footer__payments-item--cash(href="#")
-          a.footer__payments-item.footer__payments-item--euroset(href="#")
-          a.footer__payments-item.footer__payments-item--sberbank(href="#")
+      .wrapper
+        .footer__content
+          .footer__content-top
+            .footer__address
+              .footer__address-header Москва
+              .footer__address-content Адрес: ул. Николоямская, д. 48, стр. 2 <brТел.: 8 (495) 540-47-23
+            .footer__categories
+              a.footer__categories-item(href="#") Женская парфюмерия
+              a.footer__categories-item(href="#") Мужская парфюмерия
+              a.footer__categories-item(href="#") Отзывы
+          .footer__content-bottom Вопросы и предложения присылайте на электронную почту info@parfumoff.ru
+        .footer__payments
+          .footer__payments-header Мы принимаем:
+          a.footer__payments-list(href="#")
     +menu('menu--white')
     +copyright

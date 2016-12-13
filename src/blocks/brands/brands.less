@@ -1,3 +1,38 @@
 .brands {
+  margin-top: 10rem;
   
+  &__row {
+    display: flex;
+    
+    &:nth-child(n+2) {
+      margin-top: 5rem;
+    }
+  }
+  
+  &__letter {
+    flex: 0 0 auto;
+    font-size: 5rem;
+    font-family: @font-first;
+    color: @color-first;
+    width: 7rem;
+  }
+  
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  &__item {
+    font-size: 1.6rem;
+    font-family: @font-first;
+    color: #000;
+    line-height: 2.5rem;
+    text-decoration: none;
+    width: 25%;
+    display: block;
+    
+    &--bold {
+      font-weight: 700;
+    }
+  }
 }

@@ -616,6 +616,49 @@ html {
   background-size: contain;
   text-align: right;
 }
+.brands {
+  margin-top: 10rem;
+}
+.brands__row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.brands__row:nth-child(n+2) {
+  margin-top: 5rem;
+}
+.brands__letter {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  font-size: 5rem;
+  font-family: 'Open Sans', 'Arial', serif;
+  color: #eb0081;
+  width: 7rem;
+}
+.brands__list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.brands__item {
+  font-size: 1.6rem;
+  font-family: 'Open Sans', 'Arial', serif;
+  color: #000;
+  line-height: 2.5rem;
+  text-decoration: none;
+  width: 25%;
+  display: block;
+}
+.brands__item--bold {
+  font-weight: 700;
+}
 .info {
   border: 1px solid #eee;
   display: -webkit-box;

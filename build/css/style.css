@@ -521,6 +521,12 @@ html {
           flex-wrap: wrap;
   margin-top: .6rem;
 }
+.catalog--pink .item__button {
+  background: #eb0081;
+}
+.catalog--pink .item__name {
+  color: #eb0081;
+}
 .item {
   width: 24.5%;
   display: -webkit-box;
@@ -570,11 +576,9 @@ html {
   text-decoration: none;
   margin-top: .5rem;
   margin-bottom: .6rem;
-  -webkit-transition: all .15s linear;
-  transition: all .15s linear;
 }
 .item__name:hover {
-  color: #a90213;
+  text-decoration: underline;
 }
 .item__picture-container {
   height: 19.5rem;
@@ -618,7 +622,7 @@ html {
   transition: all .15s linear;
 }
 .item__button:hover {
-  background: #a90213;
+  opacity: .7;
 }
 .categories {
   display: -webkit-box;
@@ -646,7 +650,7 @@ html {
   margin-left: .65rem;
 }
 .categories__item--she {
-  background: #c6cbcc;
+  background: #c6cbcc url(../img/category-1.jpg) no-repeat top right;
   background-size: contain;
 }
 .categories__item--he {
@@ -699,6 +703,9 @@ html {
 }
 .brands__item--bold {
   font-weight: 700;
+}
+.brands--red .brands__letter {
+  color: #db0319;
 }
 .info {
   border: 1px solid #eee;
@@ -768,6 +775,18 @@ html {
 }
 .advantages__item-content-bold {
   font-weight: 700;
+}
+.advantages--red .advantages__item-icon--original {
+  background: url(../img/advantage-1-red.png) no-repeat;
+}
+.advantages--red .advantages__item-icon--distributors {
+  background: url(../img/advantage-2-red.png) no-repeat;
+}
+.advantages--red .advantages__item-icon--cashback {
+  background: url(../img/advantage-3-red.png) no-repeat;
+}
+.advantages--red .advantages__item-icon--discounts {
+  background: url(../img/advantage-4-red.png) no-repeat;
 }
 .reviews__header {
   font-size: 2.2rem;
@@ -869,6 +888,9 @@ html {
   font-family: 'Open Sans', 'Arial', serif;
   color: #fff;
   line-height: 2.5rem;
+}
+.footer--red .footer__top {
+  background: #db0319;
 }
 .copyright {
   background: #f5f5f5;

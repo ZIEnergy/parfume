@@ -181,6 +181,7 @@ html {
 /* Blocks */
 .top-bar {
   background: #676767;
+  width: 100%;
 }
 .top-bar__wrapper {
   display: -webkit-box;
